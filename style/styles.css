@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat';
 }
 
 .container {
@@ -70,12 +71,12 @@
 .header__right-link {
   font-size: 14px;
   color: var(--navigation-links-color);
+  transition: 500ms;
 }
 
 .header__right-link:hover {
   color: var(--navigation-links-active-color);
   position: relative;
-  transition: 0.3s ease-in-out;
 }
 
 .header__right-link:hover::after {
@@ -90,3 +91,19 @@
   left: 0;
 }
 /* /Header */
+
+/* Banner */
+#banner {
+  background-image: url('../assets/images/banner-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 183px;
+  padding-bottom: 173px;
+}
+
+.banner__title {
+  font-weight: bold;
+  font-size: 64px;
+  color: var(--white-color);
+}
+/* /Banner */
