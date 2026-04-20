@@ -6,5 +6,8 @@
     rgba(252, 176, 69, 1) 100%
   );
 
-  --
+  --add-section-text-color: #ffffff;
+  --header-background: #010305;
+  --navigation-links-color: #ffffff;
+  --navigation-links-active-color: #ed8e00;
 }
