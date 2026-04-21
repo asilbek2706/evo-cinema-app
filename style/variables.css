@@ -10,5 +10,12 @@
   --header-background: #010305;
   --navigation-links-color: #ffffff;
   --navigation-links-active-color: #ed8e00;
-  --white-color: #ffffff;
+  --white-text-color: #ffffff;
+  --banner-description-color: #c8c8c8;
+
+  --button-primary-background: #f18128;
+  --button-primary-color: #000000;
+
+  --button-secondary-background: #040d1f;
+  --button-secondary-color: #ffffff;
 }
