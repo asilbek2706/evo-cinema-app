@@ -30,6 +30,11 @@
   background-color: var(--button-secondary-background);
 }
 
+.section__title {
+  font-size: 36px;
+  font-family: 'Comfortaa', cursive;
+}
+
 /* Special Offers */
 .special__offers {
   background: var(--add-section-background);
