@@ -29,4 +29,13 @@
     rgba(0, 0, 0, 0.71) 51.04%,
     rgba(7, 15, 25, 0.8) 100%
   );
+
+  --ad-background-gradient: linear-gradient(
+    90deg,
+    #202426 0%,
+    #1e2123 45.64%,
+    rgba(204, 199, 199, 0) 100.72%
+  );
+
+  --ad-btn-secondary-color: #ffffff;
 }
