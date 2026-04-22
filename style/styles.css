@@ -5,8 +5,12 @@
   font-family: 'Montserrat';
 }
 
+body {
+  background-color: var(--background-color);
+}
+
 .container {
-  max-width: 1440px;
+  max-width: 1140px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
@@ -30,9 +34,19 @@
   background-color: var(--button-secondary-background);
 }
 
+section {
+  margin-top: 60px;
+}
+
 .section__title {
   font-size: 36px;
   font-family: 'Comfortaa', cursive;
+  color: var(--section-title-color);
+}
+
+.play-icon {
+  width: 40px;
+  height: 46px;
 }
 
 /* Special Offers */
@@ -158,3 +172,67 @@
   margin-top: 50px;
 }
 /* /Banner */
+
+/* Films */
+.films__group {
+  margin-top: 54px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.film__item {
+  position: relative;
+  max-width: 255px;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.film__item:hover .film__infos {
+  animation: film-overlay 1s;
+  opacity: 100;
+}
+
+.film__item-image {
+  width: 255px;
+  height: 367.05px;
+}
+
+.film__infos {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--film-card-overlay-background);
+  color: var(--white-text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding: 54px 14px 18px;
+  opacity: 0;
+}
+
+.film__info-duration {
+  margin-top: 12px;
+  padding: 7px 27px;
+  border: 1px solid white;
+  border-radius: 9px;
+  font-size: 14px;
+  height: 24px;
+  display: grid;
+  place-content: center;
+}
+
+.film__info-name {
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.film__info-description {
+  margin-top: 12px;
+  font-size: 14px;
+}
+/* /Films */
