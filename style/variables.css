@@ -50,4 +50,6 @@
     rgba(35, 35, 35, 0.8) 0%,
     rgba(11, 11, 11, 0.6) 100%
   );
+
+  --footer-background: linear-gradient(90deg, #ff8c30 0%, #9f4700 100%)
 }
