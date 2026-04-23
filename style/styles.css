@@ -388,6 +388,11 @@ section {
     overflow: hidden;
 }
 
+.series__image {
+    width: 1113px;
+    height: 436px;
+}
+
 .series__overlay {
     position: absolute;
     width: 100%;
