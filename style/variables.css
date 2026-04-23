@@ -38,4 +38,10 @@
   );
 
   --ad-btn-secondary-color: #ffffff;
+
+  --collection-card-overlay-background: linear-gradient(
+    270deg,
+    rgba(7, 15, 25, 0.56) 0%,
+    rgba(49, 114, 9, 0.56) 100%
+  );
 }
