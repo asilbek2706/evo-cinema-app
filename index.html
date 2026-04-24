@@ -45,25 +45,41 @@
             <a href="#collections" class="header__right-link">Collections</a>
           </li>
         </ul>
-        <img src="./assets/icons/menu.svg" alt="Menu icon" class="menu__icon" />
+        <button
+          class="menu__icon"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <img src="./assets/icons/menu.svg" alt="" />
+        </button>
+        <div class="mobile__menu-backdrop" aria-hidden="true"></div>
         <div class="mobile__menu">
-          <img
-            src="./assets/icons/x-icon.svg"
-            alt="close-icon"
-            class="x__icon"
-          />
+          <div class="mobile__menu-header">
+            <img
+              src="./assets/images/logo.png"
+              alt="Evo Cinema"
+              class="mobile__menu-logo"
+            />
+            <button class="x__icon" type="button" aria-label="Close menu">
+              <img src="./assets/icons/x-icon.svg" alt="" />
+            </button>
+          </div>
+          <p class="mobile__menu-caption">
+            Explore movies, series, and collections.
+          </p>
           <ul class="mobile__menu-list">
             <li class="mobile__menu-item">
-              <a href="#" class="mobile__menu-link">Films</a>
+              <a href="#films" class="mobile__menu-link">Films</a>
             </li>
             <li class="mobile__menu-item">
-              <a href="#" class="mobile__menu-link">Serials</a>
+              <a href="#series" class="mobile__menu-link">Series</a>
             </li>
             <li class="mobile__menu-item">
-              <a href="#" class="mobile__menu-link">Cartoons</a>
+              <a href="#ad" class="mobile__menu-link">Advertisement</a>
             </li>
             <li class="mobile__menu-item">
-              <a href="#" class="mobile__menu-link">Collections</a>
+              <a href="#collections" class="mobile__menu-link">Collections</a>
             </li>
           </ul>
         </div>
