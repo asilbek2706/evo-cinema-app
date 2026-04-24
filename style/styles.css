@@ -143,11 +143,39 @@ section {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: red;
+  background: orangered;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  display: none;
+  transform: translateX(100vw);
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-end;
+  transition: 1s ease-in-out;
 }
 
 .menu__icon {
   display: none;
+}
+
+.mobile__menu-list {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+.mobile__menu-item {
+  text-align: right;
+  list-style-type: none;
+}
+
+.mobile__menu-link {
+  font-size: 32px;
+  color: var(--white-text-color);
+  text-decoration: none;
 }
 /* /Header */
 

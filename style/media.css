@@ -6,4 +6,34 @@
   .menu__icon {
     display: block;
   }
+
+  .mobile__menu {
+    display: flex;
+  }
+
+  .films__group {
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 10px;
+  }
+
+  .collections__group {
+    display: flex;
+    gap: 20px;
+    overflow: scroll;
+  }
+
+  .collections__item {
+    min-width: 350px;
+  }
+
+  .series__list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 'a a' 'a a' 'b c' 'd e';
+  }
+
+  .main__series > img {
+    width: 100%;
+    object-fit: cover;
+  }
 }
